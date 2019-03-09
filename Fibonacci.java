@@ -3,7 +3,7 @@ package com.company;
 import java.math.BigInteger;
 
 public class Fibonacci {
-    static BigInteger fibonacci(int n){
+    public static BigInteger fibonacci(int n){
         BigInteger F0 = new BigInteger("0");
         BigInteger F1 = new BigInteger("1");
         BigInteger Fn = new BigInteger("1");
